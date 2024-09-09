@@ -1,0 +1,3 @@
+/Users/roymolina/Documents/GitHub/RPGEngine/cmake-build-debug/CMakeFiles/RPGEngine.dir
+/Users/roymolina/Documents/GitHub/RPGEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/roymolina/Documents/GitHub/RPGEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
