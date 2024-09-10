@@ -9,4 +9,8 @@ add_executable(RPGEngine main.cpp
         Player/Magic.cpp
         Player/Magic.h
         Player/Player.cpp
-        Player/Player.h)
+        Player/Player.h
+        Player/Stats.cpp
+        Player/Stats.h
+        Util/Combat.cpp
+        Util/Combat.h)

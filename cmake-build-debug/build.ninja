@@ -73,6 +73,18 @@ build CMakeFiles/RPGEngine.dir/Player/Player.cpp.o: CXX_COMPILER__RPGEngine_unsc
   OBJECT_DIR = CMakeFiles/RPGEngine.dir
   OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Player
 
+build CMakeFiles/RPGEngine.dir/Player/Stats.cpp.o: CXX_COMPILER__RPGEngine_unscanned_Debug /Users/roymolina/Documents/GitHub/RPGEngine/Player/Stats.cpp || cmake_object_order_depends_target_RPGEngine
+  DEP_FILE = CMakeFiles/RPGEngine.dir/Player/Stats.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RPGEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Player
+
+build CMakeFiles/RPGEngine.dir/Util/Combat.cpp.o: CXX_COMPILER__RPGEngine_unscanned_Debug /Users/roymolina/Documents/GitHub/RPGEngine/Util/Combat.cpp || cmake_object_order_depends_target_RPGEngine
+  DEP_FILE = CMakeFiles/RPGEngine.dir/Util/Combat.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RPGEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Util
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RPGEngine
@@ -81,7 +93,7 @@ build CMakeFiles/RPGEngine.dir/Player/Player.cpp.o: CXX_COMPILER__RPGEngine_unsc
 #############################################
 # Link the executable RPGEngine
 
-build RPGEngine: CXX_EXECUTABLE_LINKER__RPGEngine_Debug CMakeFiles/RPGEngine.dir/main.cpp.o CMakeFiles/RPGEngine.dir/Player/Health.cpp.o CMakeFiles/RPGEngine.dir/Player/Magic.cpp.o CMakeFiles/RPGEngine.dir/Player/Player.cpp.o
+build RPGEngine: CXX_EXECUTABLE_LINKER__RPGEngine_Debug CMakeFiles/RPGEngine.dir/main.cpp.o CMakeFiles/RPGEngine.dir/Player/Health.cpp.o CMakeFiles/RPGEngine.dir/Player/Magic.cpp.o CMakeFiles/RPGEngine.dir/Player/Player.cpp.o CMakeFiles/RPGEngine.dir/Player/Stats.cpp.o CMakeFiles/RPGEngine.dir/Util/Combat.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/RPGEngine.dir
   POST_BUILD = :
