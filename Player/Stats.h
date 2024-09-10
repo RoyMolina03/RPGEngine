@@ -14,9 +14,25 @@ private:
     int str; //strength
 
 public:
-    // default constructor
+    // constructors
     Stats();
+    Stats(int co, int de, int wi, int in, int ca, int st); //this constructor is for setting specific stat values
 
+    //return functions
+    string returnConString();
+    string returnDexString();
+    string returnWisString();
+    string returnIntelString();
+    string returnCarString();
+    string returnStrString();
+    int returnCon();
+    int returnDex();
+    int returnWis();
+    int returnIntel();
+    int returnCar();
+    int returnStr();
+
+    //modification functions
 
 
 
