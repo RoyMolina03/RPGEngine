@@ -19,12 +19,6 @@ public:
     Stats(int co, int de, int wi, int in, int ca, int st); //this constructor is for setting specific stat values
 
     //return functions
-    string returnConString();
-    string returnDexString();
-    string returnWisString();
-    string returnIntelString();
-    string returnCarString();
-    string returnStrString();
     int returnCon();
     int returnDex();
     int returnWis();
@@ -33,6 +27,12 @@ public:
     int returnStr();
 
     //modification functions
+    void lvlCon(int num);
+    void lvlDex(int num);
+    void lvlWis(int num);
+    void lvlIntel(int num);
+    void lvlCar(int num);
+    void lvlStr(int num);
 
 
 
