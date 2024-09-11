@@ -85,6 +85,30 @@ build CMakeFiles/RPGEngine.dir/Util/Combat.cpp.o: CXX_COMPILER__RPGEngine_unscan
   OBJECT_DIR = CMakeFiles/RPGEngine.dir
   OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Util
 
+build CMakeFiles/RPGEngine.dir/Util/Inventory.cpp.o: CXX_COMPILER__RPGEngine_unscanned_Debug /Users/roymolina/Documents/GitHub/RPGEngine/Util/Inventory.cpp || cmake_object_order_depends_target_RPGEngine
+  DEP_FILE = CMakeFiles/RPGEngine.dir/Util/Inventory.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RPGEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Util
+
+build CMakeFiles/RPGEngine.dir/Util/Equipment.cpp.o: CXX_COMPILER__RPGEngine_unscanned_Debug /Users/roymolina/Documents/GitHub/RPGEngine/Util/Equipment.cpp || cmake_object_order_depends_target_RPGEngine
+  DEP_FILE = CMakeFiles/RPGEngine.dir/Util/Equipment.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RPGEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Util
+
+build CMakeFiles/RPGEngine.dir/Util/Item.cpp.o: CXX_COMPILER__RPGEngine_unscanned_Debug /Users/roymolina/Documents/GitHub/RPGEngine/Util/Item.cpp || cmake_object_order_depends_target_RPGEngine
+  DEP_FILE = CMakeFiles/RPGEngine.dir/Util/Item.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RPGEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Util
+
+build CMakeFiles/RPGEngine.dir/Util/Weapon.cpp.o: CXX_COMPILER__RPGEngine_unscanned_Debug /Users/roymolina/Documents/GitHub/RPGEngine/Util/Weapon.cpp || cmake_object_order_depends_target_RPGEngine
+  DEP_FILE = CMakeFiles/RPGEngine.dir/Util/Weapon.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RPGEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/RPGEngine.dir/Util
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RPGEngine
@@ -93,7 +117,7 @@ build CMakeFiles/RPGEngine.dir/Util/Combat.cpp.o: CXX_COMPILER__RPGEngine_unscan
 #############################################
 # Link the executable RPGEngine
 
-build RPGEngine: CXX_EXECUTABLE_LINKER__RPGEngine_Debug CMakeFiles/RPGEngine.dir/main.cpp.o CMakeFiles/RPGEngine.dir/Player/Health.cpp.o CMakeFiles/RPGEngine.dir/Player/Magic.cpp.o CMakeFiles/RPGEngine.dir/Player/Player.cpp.o CMakeFiles/RPGEngine.dir/Player/Stats.cpp.o CMakeFiles/RPGEngine.dir/Util/Combat.cpp.o
+build RPGEngine: CXX_EXECUTABLE_LINKER__RPGEngine_Debug CMakeFiles/RPGEngine.dir/main.cpp.o CMakeFiles/RPGEngine.dir/Player/Health.cpp.o CMakeFiles/RPGEngine.dir/Player/Magic.cpp.o CMakeFiles/RPGEngine.dir/Player/Player.cpp.o CMakeFiles/RPGEngine.dir/Player/Stats.cpp.o CMakeFiles/RPGEngine.dir/Util/Combat.cpp.o CMakeFiles/RPGEngine.dir/Util/Inventory.cpp.o CMakeFiles/RPGEngine.dir/Util/Equipment.cpp.o CMakeFiles/RPGEngine.dir/Util/Item.cpp.o CMakeFiles/RPGEngine.dir/Util/Weapon.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/RPGEngine.dir
   POST_BUILD = :

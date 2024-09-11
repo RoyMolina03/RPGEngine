@@ -13,4 +13,12 @@ add_executable(RPGEngine main.cpp
         Player/Stats.cpp
         Player/Stats.h
         Util/Combat.cpp
-        Util/Combat.h)
+        Util/Combat.h
+        Util/Inventory.cpp
+        Util/Inventory.h
+        Util/Equipment.cpp
+        Util/Equipment.h
+        Util/Item.cpp
+        Util/Item.h
+        Util/Weapon.cpp
+        Util/Weapon.h)

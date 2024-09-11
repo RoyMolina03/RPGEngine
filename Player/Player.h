@@ -11,6 +11,8 @@ private:
     Magic mana;
     Stats sheet;
 
+public:
+
 };
 
 
